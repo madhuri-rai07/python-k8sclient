@@ -25,5 +25,4 @@ pod = api.listPod()
 # write it into pretty JSON
 json = client.sanitizeForSerialization(pod)
 print json
-{'category': {'category': None, 'status': None, 'name': 'string', 'tags': None, 'photoUrls': None, 'id': 0L}, 'status': {'category': None, 'status': None, 'name': None, 'tags': None, 'photoUrls': None, 'id': None}, 'name': 'foogly', 'tags': [{'id': 0L, 'name': 'string'}], 'photoUrls': ['string'], 'id': 3L}
 
