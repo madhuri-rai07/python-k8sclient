@@ -23,12 +23,15 @@ Steps to generate Kubernetes client code for v1beta3:
 Assuming working directory is /vagrant.
 
 * Clone the Kubernetes repo.
+
 git clone https://github.com/GoogleCloudPlatform/kubernetes.git
 
 * Clone the swagger-codegen repo.
-git clone https://github.com/swagger-api/swagger-codegen.git
+
+    git clone https://github.com/swagger-api/swagger-codegen.git
 
 * Run below command to generate the API client code for Kubernetes.
+
 java -jar /vagrant/swagger-codegen/modules/swagger-codegen-cli/target/swagger-codegen-cli.jar generate -i /vagrant/kubernetes/api/swagger-spec/v1beta3.json -l python -o /vagrant/KubernetesClientCode
 
 Now you can check the code at location /vagrant/KubernetesClientCode.
