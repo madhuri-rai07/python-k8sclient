@@ -28,7 +28,7 @@ git clone https://github.com/GoogleCloudPlatform/kubernetes.git
 
 * Clone the swagger-codegen repo.
 
-    git clone https://github.com/swagger-api/swagger-codegen.git
+  git clone https://github.com/swagger-api/swagger-codegen.git
 
 * Run below command to generate the API client code for Kubernetes.
 
